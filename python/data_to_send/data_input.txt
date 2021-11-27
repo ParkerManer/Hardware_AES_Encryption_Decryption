@@ -1,0 +1,15 @@
+Dogecoin was created by IBM software engineer Billy Markus from Portland, Oregon and Adobe software engineer Jackson Palmer,
+ who set out to create a peer-to-peer digital currency that could reach a broader demographic than Bitcoin. In addition, 
+they wanted to distance it from the controversial history of other coins.[8] Dogecoin was offically launched on December 6, 
+2013, and within the first 30 days there were over a million visitors to Dogecoin.com.[9]Palmer, at the time a member of the 
+Adobe Systems marketing department in Sydney is credited with making the idea a reality.[10] Palmer had purchased the domain 
+Dogecoin.com and added a splash screen, which featured the coin's logo and scattered Comic Sans text. Markus reached out to
+ Palmer after seeing the site, and started efforts to develop the currency. Markus had designed Dogecoin's protocol based on 
+existing cryptocurrencies Luckycoin and Litecoin,[11] which use scrypt technology in their proof-of-work algorithm.[12] 
+The use of scrypt means that miners cannot use SHA-256 bitcoin mining equipment, and instead must use dedicated FPGA and 
+ASIC devices for mining which are known to be more complex to produce.[13][14]On December 19, 2013, Dogecoin jumped nearly
+ 300 percent in value in 72 hours, rising from US$0.00026 to $0.00095,[15] with a volume of billions of Dogecoins per day. 
+This growth occurred during a time when bitcoin and many other cryptocurrencies were reeling from China's decision to forbid 
+Chinese banks from investing into the bitcoin economy.[11] Three days later, Dogecoin experienced its first major crash by 
+dropping by 80% due to this event and to large mining pools exploiting the small amount of computing power required at the
+ time to mine Dogecoin.[16]

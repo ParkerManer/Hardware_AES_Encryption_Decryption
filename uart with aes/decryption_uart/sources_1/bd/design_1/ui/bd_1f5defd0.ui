@@ -1,0 +1,14 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-789,-476",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace inst axi_usb2_device_0 -pg 1 -lvl 2 -x 260 -y -190 -defaultsOSRD
+preplace inst axi_uart16550_0 -pg 1 -lvl 1 -x -160 -y -220 -defaultsOSRD -resize 328 368
+levelinfo -pg 1 -350 -160 260 380
+pagesize -pg 1 -db -bbox -sgen -350 -620 380 180
+"
+}
+
