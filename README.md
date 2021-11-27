@@ -4,7 +4,7 @@
 
 
 ---------------------------------------------------------------------------------------------------------------
-## Look at the short Summary for general idea of the code
+## For Short Summary    : Look for the PDF :Short_Summary
 
 ## For Deep Explanation : Look for the PDF :Deep_Explanation
 
