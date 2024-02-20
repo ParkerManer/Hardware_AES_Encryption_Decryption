@@ -51,15 +51,15 @@ def read_data(device_name):
     
 def recieve_data_main():
     ports_used_array=ports_used()
-    print_ports_used(ports_used_array[1])
-    FPGA=initialize_port(ports_used_array[1])  
+    print_ports_used(ports_used_array[4])
+    FPGA=initialize_port(ports_used_array[4])  
     read_data('FPGA')
     close_port('FPGA')
     
 if __name__ == "__main__":   
     ports_used_array=ports_used()
-    print_ports_used(ports_used_array[1])
-    FPGA=initialize_port(ports_used_array[1])
+    print_ports_used(ports_used_array[4])
+    FPGA=initialize_port(ports_used_array[4])
     read_data('FPGA')
     close_port('FPGA')
 

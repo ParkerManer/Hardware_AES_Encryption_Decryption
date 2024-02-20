@@ -9,9 +9,13 @@ import time
 functions=locals
 def ports_used():
     list = serial.tools.list_ports.comports()
+    print('list')
     connected = []
+    print(list)
     for element in list:
         connected.append(element.device)
+    print('connected')
+    print(connected)
     return connected
 
 def print_ports_used(connected):
@@ -27,12 +31,12 @@ def close_port(device_name):
 def data_string(data_file_name,ext):
     path=fh.current_path()
     folder="data_to_send"
-    path=path+"\\"+folder+"\\"
+    path='/Users/parkermaner/Hardware_AES_Encryption_Decryption/python/data_to_send/'
     return fh.file_reader(path+data_file_name+"."+ext)
 
 def send_data(data):
     
-    FPGA=initialize_port(ports_used()[0])
+    FPGA=initialize_port(ports_used()[2])
     print("before sending data: " + str(int(time.time())))
     FPGA.write(data)
     FPGA.write(b'\xff'*16)
@@ -74,7 +78,7 @@ if __name__ == "__main__":
     filename='data_input'
     ext='txt'
     ports_used_array=ports_used()
-    print_ports_used(ports_used_array[0])
+    print_ports_used(ports_used_array[2])
     filedata=data_string(filename,ext)
     #filedata="The art of code"
     data=data_fixer(filedata)
